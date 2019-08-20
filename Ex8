@@ -1,0 +1,12 @@
+public class Ex8 {
+    public static void main(String[] args){
+        int num = 49;
+        boolean booleanValue;
+
+        if ((num % 7)==0) {
+            booleanValue = true;
+        } else booleanValue = false;
+
+        System.out.println(!booleanValue);
+    }
+}
