@@ -1,0 +1,14 @@
+public class Ex5 {
+    public static void main(String[] args){
+        char charValue = 'a';
+        int intValue = 50;
+        int asciiValue = 97;
+
+        if (asciiValue>intValue) {
+            System.out.println("MAI MARE");
+        }
+            else if (asciiValue==intValue) {
+                System.out.println("EGAL");
+            } else System.out.println("MAI MIC");
+    }
+}
