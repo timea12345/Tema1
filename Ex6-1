@@ -1,0 +1,19 @@
+public class Ex61 {
+    public static void main(String[] args) {
+
+        // maximul a 3 numere fara valori egale
+        int a = 1, b = 2, c = 3;
+        int max = a;
+
+        if (b > a) {
+            if (b > c) {
+                max = b;
+            } else max = c;
+        } else if (b<a){
+            if (c>a){
+                max=c;
+            }
+        }
+        System.out.println(max);
+    }
+}
