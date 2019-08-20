@@ -1,0 +1,8 @@
+public class Ex4 {
+    public static void main(String[] args){
+        int a = 5;
+        int b = 10;
+        float result = (float)a/ (float)b;
+        System.out.println(result);
+    }
+}
