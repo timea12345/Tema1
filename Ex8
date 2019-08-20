@@ -5,7 +5,9 @@ public class Ex8 {
 
         if ((num % 7)==0) {
             booleanValue = true;
-        } else booleanValue = false;
+        } else {
+            booleanValue = false;
+        }
 
         System.out.println(!booleanValue);
     }
