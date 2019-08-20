@@ -1,0 +1,11 @@
+public class Ex7 {
+    public static void main(String[] args){
+        float a = 3.25F;
+        float b = 1.19F;
+        float minimum;
+
+        minimum = (a<b) ? a : b;
+        System.out.println(minimum);
+
+    }
+}
