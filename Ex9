@@ -8,6 +8,6 @@ public class Ex9 {
             }
         } else if (a<b){
             System.out.println("UNU-DOI");
-        } else if (a>b) System.out.println("DOI-UNU");
+        } else if (a>=b) System.out.println("DOI-UNU");
     }
 }
