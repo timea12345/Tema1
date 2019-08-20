@@ -1,13 +1,13 @@
 public class Ex5 {
     public static void main(String[] args){
         char charValue = 'a';
-        int intValue = 50;
-        int asciiValue = 97;
+        int intValue = 150;
 
-        if (asciiValue>intValue) {
+        //stiu ca puteam sa scriu direct 'a'> insa atunci era in zadar declararea variabilei de tip char
+        if (charValue>intValue) {
             System.out.println("MAI MARE");
         }
-            else if (asciiValue==intValue) {
+            else if (charValue==intValue) {
                 System.out.println("EGAL");
             } else System.out.println("MAI MIC");
     }
